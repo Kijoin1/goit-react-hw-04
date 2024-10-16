@@ -1,0 +1,11 @@
+.cardDiv {
+  width: 100%;
+  max-width: 360px;
+  height: 252px;
+  border: 1px solid #000000;
+  img {
+    width: 360px;
+    height: 252px;
+    object-fit: cover;
+  }
+}
