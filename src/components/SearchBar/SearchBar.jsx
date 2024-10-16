@@ -9,7 +9,6 @@ const SearchBar = ({ onSubmit }) => {
     event.preventDefault();
     const inputValue = inputRef.current.value;
     if (inputValue !== "") {
-      console.log(inputValue);
       onSubmit(inputValue);
     } else {
       toast.error("This didn't work.");
